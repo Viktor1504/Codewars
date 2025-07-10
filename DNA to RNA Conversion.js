@@ -1,7 +1,7 @@
 'use strict'
 
 function DNAtoRNA(dna) {
-    return dna.split('T').join('U')
+    return dna.replaceAll('T', 'U')
 }
 
 console.log(DNAtoRNA('GCAT'))
