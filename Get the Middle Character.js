@@ -7,4 +7,4 @@ function getMiddle(s) {
     }
 }
 
-console.log(getMiddle('AABBAA'))
+console.log(getMiddle('AABФBAA'))
